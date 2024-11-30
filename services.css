@@ -1,0 +1,69 @@
+/* styles.css */
+html {
+    
+    scroll-behavior: smooth;
+}
+
+body {
+    
+    font-family:"UnifrakturCook", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.services {
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.service {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.333% - 40px); /* Adjust width as necessary */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.service a {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.service a i {
+    font-size: 30px; /* Adjust the size as needed */
+  }
+
+.service h2 {
+    font-size: 1.0em;
+    margin: 7px 0;
+    color: #000;
+}
+
+.service p {
+    font-size: 0.7em;
+    margin: 0;
+    color: #666;
+    margin: 20px;
+}
+
